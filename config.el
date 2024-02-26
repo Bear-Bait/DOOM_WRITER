@@ -227,7 +227,7 @@ version 2017-06-02"
 
 
 
-(setq tidal-boot-script-path "/home/forrest/.cabal/store/ghc-8.8.4/tidal-1.9.4-68a9272203dd68c2f382ee1bb0a71d8bd852d873af75856ab2533dea6cb56d7b/share/BootTidal.hs")
+(setq tidal-boot-script-path "~/tidal-1.9.4-68a9272203dd68c2f382ee1bb0a71d8bd852d873af75856ab2533dea6cb56d7b/share/BootTidal.hs")
 
 
 
@@ -305,7 +305,7 @@ version 2017-06-02"
 (map! "C-c j" #'evil-join)
 
 ;; ChatGPT GPTel: https://github.com/karthink/gptel API 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
-;; (load! "/home/forrest/.emacs.d/.local/elpa/gptel-20240205.623/gptel-ollama.el")
+;; (load! "~/.emacs.d/.local/elpa/gptel-20240205.623/gptel-ollama.el")
 (use-package! gptel
  :config)
 ;; (setq! gptel-api-key "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"))
@@ -325,12 +325,12 @@ version 2017-06-02"
 ;; Mediawiki
 (after! mediawiki
   (setq mediawiki-site-alist
-        '(("BookClub" "https://deadmall.llc/mediawiki/" "forrest" "Angel1516AOC"))))
+        '(("BookClub" "xxxxxxxi/" "xxxxxxxx" "xxxxxxxxxxx"))))
 
 (after! ox-mediawiki
-  (setq org-mediawiki-server-url "https://deadmall.llc/mediawiki/"
-        org-mediawiki-user "forrest"
-        org-mediawiki-publish-url "https://deadmall.llc/mediawiki/index.php"))
+  (setq org-mediawiki-server-url "xxxxxxx"
+        org-mediawiki-user "xxxxxxx"
+        org-mediawiki-publish-url "xxxxxxx"))
 
 ;; Add your custom function
 (defun my-whats-that-squiggle ()
